@@ -8,6 +8,11 @@ body {
 }
 
 header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 10px 0;
@@ -17,7 +22,9 @@ header nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 header nav ul li a {
@@ -26,28 +33,23 @@ header nav ul li a {
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
+    margin-left: 200px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    animation: fadeIn 1s;
 }
 
-section {
-    margin: 20px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-section:last-child {
-    border-bottom: none;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 200px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
