@@ -1,0 +1,22 @@
+.input {
+    padding: 5px;
+    margin: 5px;
+    font-family: monospace;
+}
+
+body{
+    background-color: cornflowerblue;
+    font-family: monospace;
+}
+.header{
+    color: white;
+    font-size: 35px;
+    margin: auto;
+    width: 60%;
+    border: none;
+}
+.footer{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    }

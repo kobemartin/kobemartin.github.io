@@ -1,0 +1,3 @@
+101 - Operation not sent to account.php
+102 - Incorrect Username or Password
+103 - Unable to log out

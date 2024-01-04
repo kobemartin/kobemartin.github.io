@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data>
+			iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNS
+			R0IArs4c6QAAALdJREFUOBGlk2EOgzAIhWHZf6M32IF2ie1eXqIH
+			2g3qERidwQJiOyNJU0JfP16oIkEmuBIFMBIQU86tNLA+0702zzX9
+			K3v8VAoAMNEEGTu30wDw/GwiA1irPSdrZyHcJNF7ccJ+7Er2ougD
+			B3LkncSA0IEgqhOp7PcmYHnz45ahNaIJoHkxE484hzPA12j0R59r
+			CMhYBsjddcz17XV5B/Cdtbjk3okBhJ09wTnZAL3OniNO8Orv/AVS
+			oEbtVZvMAgAAAABJRU5ErkJggg==
+			</data>
+			<key>IsRemovable</key>
+			<false/>
+			<key>Label</key>
+			<string>Kobe</string>
+			<key>PayloadDescription</key>
+			<string>Configures settings for a web clip</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webClip.managed.32EE91E9-6135-49A0-8768-91A43E16A56D</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>19D9E5F9-5E30-45F2-B5A8-0F2985243C1D</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>kobegmartin.xyz</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures a password for profile removal</string>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.1EC8E843-609C-439B-9FA6-80B2238C0307</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>0C5E21BD-A805-4D3C-9D7C-1324C96C82D3</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+			<key>RemovalPassword</key>
+			<string>Remove</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Kobe</string>
+	<key>PayloadIdentifier</key>
+	<string>com.kobegmartin.xyz</string>
+	<key>PayloadOrganization</key>
+	<string>Kobe Inc</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>95FA564B-5329-426F-A28E-92D3E5BD20BA</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

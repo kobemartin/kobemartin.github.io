@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+        p {
+          font-size: 1000%;
+        }
+      </style>
+   </head>
+<body>
+
+<h2>Randon Number 1-100</h2>
+
+<!-- <p>Math.floor(Math.random() * 100) + 1) returns a random integer between 1 and 
+100 (both included):</p> -->
+
+<center><p id="demo"></p></center>
+
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 100) + 1;
+</script>
+
+</body>
+</html>

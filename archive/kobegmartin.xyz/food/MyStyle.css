@@ -1,0 +1,12 @@
+img.right {
+	float:right
+}
+
+body {
+    background-color: #b0c4de; 
+	font-family: font;
+}
+@font-face {
+    font-family: font;
+    src: url(font.ttf);
+}
